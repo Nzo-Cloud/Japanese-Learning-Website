@@ -1,22 +1,122 @@
 [
-  {
-    "question": "あ",
-    "choices": ["a", "i", "u", "e"],
-    "answer": "a"
-  },
-  {
-    "question": "か",
-    "choices": ["ka", "ki", "ku", "ko"],
-    "answer": "ka"
-  },
-  {
-    "question": "さ",
-    "choices": ["sa", "shi", "su", "so"],
-    "answer": "sa"
-  },
-  {
-    "question": "た",
-    "choices": ["ta", "chi", "tsu", "to"],
-    "answer": "ta"
-  }
+  {"question":"あ","choices":["a","i","u","e"],"answer":"a"},
+  {"question":"い","choices":["i","e","a","o"],"answer":"i"},
+  {"question":"う","choices":["u","o","a","i"],"answer":"u"},
+  {"question":"え","choices":["e","a","i","o"],"answer":"e"},
+  {"question":"お","choices":["o","u","a","e"],"answer":"o"},
+
+  {"question":"か","choices":["ka","ga","ki","ko"],"answer":"ka"},
+  {"question":"き","choices":["ki","gi","ka","ke"],"answer":"ki"},
+  {"question":"く","choices":["ku","gu","ko","ka"],"answer":"ku"},
+  {"question":"け","choices":["ke","ge","ki","ka"],"answer":"ke"},
+  {"question":"こ","choices":["ko","go","ku","ka"],"answer":"ko"},
+
+  {"question":"さ","choices":["sa","za","shi","so"],"answer":"sa"},
+  {"question":"し","choices":["shi","chi","ji","su"],"answer":"shi"},
+  {"question":"す","choices":["su","zu","shi","so"],"answer":"su"},
+  {"question":"せ","choices":["se","ze","sa","so"],"answer":"se"},
+  {"question":"そ","choices":["so","zo","su","sa"],"answer":"so"},
+
+  {"question":"た","choices":["ta","da","chi","to"],"answer":"ta"},
+  {"question":"ち","choices":["chi","shi","ji","tsu"],"answer":"chi"},
+  {"question":"つ","choices":["tsu","su","zu","chi"],"answer":"tsu"},
+  {"question":"て","choices":["te","de","ta","to"],"answer":"te"},
+  {"question":"と","choices":["to","do","te","ta"],"answer":"to"},
+
+  {"question":"な","choices":["na","ni","ma","ra"],"answer":"na"},
+  {"question":"に","choices":["ni","ri","mi","ne"],"answer":"ni"},
+  {"question":"ぬ","choices":["nu","ru","mu","no"],"answer":"nu"},
+  {"question":"ね","choices":["ne","re","ni","no"],"answer":"ne"},
+  {"question":"の","choices":["no","mo","ro","na"],"answer":"no"},
+
+  {"question":"は","choices":["ha","ba","pa","hi"],"answer":"ha"},
+  {"question":"ひ","choices":["hi","bi","pi","he"],"answer":"hi"},
+  {"question":"ふ","choices":["fu","hu","bu","pu"],"answer":"fu"},
+  {"question":"へ","choices":["he","be","pe","ho"],"answer":"he"},
+  {"question":"ほ","choices":["ho","bo","po","ha"],"answer":"ho"},
+
+  {"question":"ま","choices":["ma","na","ra","mi"],"answer":"ma"},
+  {"question":"み","choices":["mi","ni","ri","me"],"answer":"mi"},
+  {"question":"む","choices":["mu","nu","ru","mo"],"answer":"mu"},
+  {"question":"め","choices":["me","ne","re","mo"],"answer":"me"},
+  {"question":"も","choices":["mo","no","ro","ma"],"answer":"mo"},
+
+  {"question":"や","choices":["ya","yu","ra","wa"],"answer":"ya"},
+  {"question":"ゆ","choices":["yu","yo","ya","ru"],"answer":"yu"},
+  {"question":"よ","choices":["yo","yu","ra","ya"],"answer":"yo"},
+
+  {"question":"ら","choices":["ra","na","la","ri"],"answer":"ra"},
+  {"question":"り","choices":["ri","ni","mi","re"],"answer":"ri"},
+  {"question":"る","choices":["ru","nu","mu","ro"],"answer":"ru"},
+  {"question":"れ","choices":["re","ne","ri","ro"],"answer":"re"},
+  {"question":"ろ","choices":["ro","no","ra","mo"],"answer":"ro"},
+
+  {"question":"わ","choices":["wa","ra","ma","ya"],"answer":"wa"},
+  {"question":"を","choices":["wo","o","wa","ro"],"answer":"wo"},
+  {"question":"ん","choices":["n","m","nn","na"],"answer":"n"},
+
+  {"question":"が","choices":["ga","ka","za","da"],"answer":"ga"},
+  {"question":"ぎ","choices":["gi","ki","ji","ri"],"answer":"gi"},
+  {"question":"ぐ","choices":["gu","ku","zu","ru"],"answer":"gu"},
+  {"question":"げ","choices":["ge","ke","ze","re"],"answer":"ge"},
+  {"question":"ご","choices":["go","ko","zo","ro"],"answer":"go"},
+
+  {"question":"ざ","choices":["za","sa","da","ga"],"answer":"za"},
+  {"question":"じ","choices":["ji","shi","chi","gi"],"answer":"ji"},
+  {"question":"ず","choices":["zu","su","gu","tsu"],"answer":"zu"},
+  {"question":"ぜ","choices":["ze","se","ge","de"],"answer":"ze"},
+  {"question":"ぞ","choices":["zo","so","go","do"],"answer":"zo"},
+
+  {"question":"だ","choices":["da","ta","za","ga"],"answer":"da"},
+  {"question":"ぢ","choices":["ji","di","chi","gi"],"answer":"ji"},
+  {"question":"づ","choices":["zu","du","tsu","gu"],"answer":"zu"},
+  {"question":"で","choices":["de","te","ze","ge"],"answer":"de"},
+  {"question":"ど","choices":["do","to","zo","go"],"answer":"do"},
+
+  {"question":"ば","choices":["ba","ha","pa","ga"],"answer":"ba"},
+  {"question":"び","choices":["bi","hi","pi","gi"],"answer":"bi"},
+  {"question":"ぶ","choices":["bu","fu","pu","gu"],"answer":"bu"},
+  {"question":"べ","choices":["be","he","pe","ge"],"answer":"be"},
+  {"question":"ぼ","choices":["bo","ho","po","go"],"answer":"bo"},
+
+  {"question":"ぱ","choices":["pa","ba","ha","ka"],"answer":"pa"},
+  {"question":"ぴ","choices":["pi","bi","hi","ki"],"answer":"pi"},
+  {"question":"ぷ","choices":["pu","bu","fu","ku"],"answer":"pu"},
+  {"question":"ぺ","choices":["pe","be","he","ke"],"answer":"pe"},
+  {"question":"ぽ","choices":["po","bo","ho","ko"],"answer":"po"},
+
+  {"question":"きゃ","choices":["kya","sha","cha","gya"],"answer":"kya"},
+  {"question":"きゅ","choices":["kyu","shu","chu","gyu"],"answer":"kyu"},
+  {"question":"きょ","choices":["kyo","sho","cho","gyo"],"answer":"kyo"},
+
+  {"question":"しゃ","choices":["sha","kya","cha","ja"],"answer":"sha"},
+  {"question":"しゅ","choices":["shu","kyu","chu","ju"],"answer":"shu"},
+  {"question":"しょ","choices":["sho","kyo","cho","jo"],"answer":"sho"},
+
+  {"question":"ちゃ","choices":["cha","sha","kya","ja"],"answer":"cha"},
+  {"question":"ちゅ","choices":["chu","shu","kyu","ju"],"answer":"chu"},
+  {"question":"ちょ","choices":["cho","sho","kyo","jo"],"answer":"cho"},
+
+  {"question":"にゃ","choices":["nya","mya","rya","hya"],"answer":"nya"},
+  {"question":"にゅ","choices":["nyu","myu","ryu","hyu"],"answer":"nyu"},
+  {"question":"にょ","choices":["nyo","myo","ryo","hyo"],"answer":"nyo"},
+
+  {"question":"ひゃ","choices":["hya","bya","pya","mya"],"answer":"hya"},
+  {"question":"ひゅ","choices":["hyu","byu","pyu","myu"],"answer":"hyu"},
+  {"question":"ひょ","choices":["hyo","byo","pyo","myo"],"answer":"hyo"},
+
+  {"question":"りゃ","choices":["rya","nya","mya","gya"],"answer":"rya"},
+  {"question":"りゅ","choices":["ryu","nyu","myu","gyu"],"answer":"ryu"},
+  {"question":"りょ","choices":["ryo","nyo","myo","gyo"],"answer":"ryo"},
+
+  {"question":"ぁ","choices":["a","small a","la","xa"],"answer":"a"},
+  {"question":"ぃ","choices":["i","small i","li","xi"],"answer":"i"},
+  {"question":"ぅ","choices":["u","small u","lu","xu"],"answer":"u"},
+  {"question":"ぇ","choices":["e","small e","le","xe"],"answer":"e"},
+  {"question":"ぉ","choices":["o","small o","lo","xo"],"answer":"o"},
+  {"question":"っ","choices":["small tsu","tsu","su","xtsu"],"answer":"small tsu"},
+  {"question":"ゃ","choices":["small ya","ya","xya","lya"],"answer":"small ya"},
+  {"question":"ゅ","choices":["small yu","yu","xyu","lyu"],"answer":"small yu"},
+  {"question":"ょ","choices":["small yo","yo","xyo","lyo"],"answer":"small yo"},
+  {"question":"ゎ","choices":["small wa","wa","xwa","lwa"],"answer":"small wa"}
 ]

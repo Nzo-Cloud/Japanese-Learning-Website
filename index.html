@@ -13,16 +13,19 @@
     <main>
         <h2>Choose Mode</h2>
 
-        <button onclick="startQuiz('intermediate')">
+        <button onclick="goIntermediate()">
             Intermediate (Hiragana)
         </button>
 
-        <button onclick="startQuiz('hard')">
+        <button onclick="
+            localStorage.setItem('difficulty', 'hard');
+            startExam('full');
+        ">
             Hard (Sentence Mode)
         </button>
 
         <br><br>
-        <a href="hiragana.html">View Hiragana Chart</a>
+        <a href="hiragana.html" class="btn">View Hiragana Chart</a>
     </main>
 
     <script src="js/main.js"></script>

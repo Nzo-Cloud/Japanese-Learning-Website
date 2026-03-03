@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Intermediate Exam Options</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<h1>Intermediate - Select Exam Type</h1>
+
+<h2>Select Exam Mode</h2>
+
+<button onclick="startExam('random')">
+  Random 25 Questions
+</button>
+
+<button onclick="startExam('structured')">
+  Structured Sections (N5 Style)
+</button>
+
+<button onclick="showTimerOptions()">
+  Full Quiz (Timed)
+</button>
+
+<div id="timer-options" style="display:none;">
+  <h3>Select Timer</h3>
+  <button onclick="startExam('full', 300)">5 Minutes</button>
+  <button onclick="startExam('full', 600)">10 Minutes</button>
+  <button onclick="startExam('full', 900)">15 Minutes</button>
+</div>
+
+<br><br>
+<a href="index.html" class="btn">Back</a>
+
+<script src="js/main.js"></script>
+</body>
+</html>
