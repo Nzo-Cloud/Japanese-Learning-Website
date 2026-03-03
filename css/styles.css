@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#choices button {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin: 10px auto;
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 18px;
+    }
+}

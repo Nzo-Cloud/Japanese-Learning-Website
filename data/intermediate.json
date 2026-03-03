@@ -1,0 +1,22 @@
+[
+  {
+    "question": "あ",
+    "choices": ["a", "i", "u", "e"],
+    "answer": "a"
+  },
+  {
+    "question": "か",
+    "choices": ["ka", "ki", "ku", "ko"],
+    "answer": "ka"
+  },
+  {
+    "question": "さ",
+    "choices": ["sa", "shi", "su", "so"],
+    "answer": "sa"
+  },
+  {
+    "question": "た",
+    "choices": ["ta", "chi", "tsu", "to"],
+    "answer": "ta"
+  }
+]

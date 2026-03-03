@@ -1,0 +1,12 @@
+[
+  {
+    "question": "わたしは がくせい です。",
+    "choices": [
+      "I am a student.",
+      "I am a teacher.",
+      "I am tired.",
+      "I am hungry."
+    ],
+    "answer": "I am a student."
+  }
+]
